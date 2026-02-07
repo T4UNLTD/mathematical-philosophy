@@ -1,0 +1,47 @@
+# Site settings
+title: "Mathematical Philosophy Through Vaporwave"
+description: "Exploring zero, division, time_0, and simultaneity through the lens of sacred geometry and digital mysticism"
+author: Chris
+
+# Build settings
+markdown: kramdown
+theme: minima
+permalink: /:title/
+
+# KaTeX configuration
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+kramdown:
+  math_engine: katex
+  math_engine_opts:
+    throw_on_error: true
+    error_color: "#cc0000"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"

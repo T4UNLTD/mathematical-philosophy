@@ -1,0 +1,306 @@
+/* Vaporwave Color Scheme */
+:root {
+    --neon-pink: #ff6eb8;
+    --neon-cyan: #00f0ff;
+    --neon-purple: #bc13fe;
+    --dark-bg: #0a0a0f;
+    --dark-card: #12121a;
+    --text-primary: #e0e0ff;
+    --text-secondary: #a0a0c0;
+    --accent-gradient: linear-gradient(135deg, var(--neon-pink), var(--neon-purple), var(--neon-cyan));
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: var(--dark-bg);
+    color: var(--text-primary);
+    font-size: 20px;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header & Navigation */
+.site-nav {
+    background: linear-gradient(180deg, rgba(188, 19, 254, 0.1) 0%, rgba(10, 10, 15, 0) 100%);
+    border-bottom: 2px solid var(--neon-purple);
+    padding: 1.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.nav-title {
+    font-size: 1.8rem;
+    color: var(--neon-cyan);
+    text-decoration: none;
+    text-shadow: 0 0 10px var(--neon-cyan), 0 0 20px var(--neon-cyan);
+    transition: all 0.3s ease;
+}
+
+.nav-title:hover {
+    text-shadow: 0 0 20px var(--neon-cyan), 0 0 40px var(--neon-cyan), 0 0 60px var(--neon-purple);
+    transform: scale(1.02);
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--neon-pink);
+    border-color: var(--neon-pink);
+    box-shadow: 0 0 15px var(--neon-pink);
+    text-shadow: 0 0 10px var(--neon-pink);
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+/* Headings */
+h1 {
+    font-size: 3rem;
+    color: var(--neon-cyan);
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 15px var(--neon-cyan), 0 0 30px var(--neon-purple);
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--neon-pink);
+    margin: 2rem 0 1rem 0;
+    text-shadow: 0 0 10px var(--neon-pink);
+    border-bottom: 1px solid var(--neon-purple);
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: var(--neon-purple);
+    margin: 1.5rem 0 1rem 0;
+    text-shadow: 0 0 8px var(--neon-purple);
+}
+
+h4 {
+    font-size: 1.8rem;
+    color: var(--neon-cyan);
+    margin: 1rem 0 0.8rem 0;
+}
+
+/* Paragraphs & Links */
+p {
+    margin-bottom: 1.2rem;
+}
+
+a {
+    color: var(--neon-cyan);
+    text-decoration: none;
+    border-bottom: 1px solid var(--neon-cyan);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--neon-pink);
+    border-color: var(--neon-pink);
+    text-shadow: 0 0 10px var(--neon-pink);
+}
+
+/* Code Blocks */
+code {
+    background: var(--dark-card);
+    color: var(--neon-cyan);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+    border: 1px solid var(--neon-purple);
+}
+
+pre {
+    background: var(--dark-card);
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid var(--neon-purple);
+    box-shadow: 0 0 20px rgba(188, 19, 254, 0.2);
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    border: none;
+    font-size: 1rem;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid var(--neon-pink);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    color: var(--text-secondary);
+    font-style: italic;
+    background: linear-gradient(90deg, rgba(255, 110, 184, 0.1) 0%, transparent 100%);
+}
+
+/* Lists */
+ul, ol {
+    margin-bottom: 1.2rem;
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+li::marker {
+    color: var(--neon-cyan);
+}
+
+/* Math Expressions (KaTeX) */
+.katex-display {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: var(--dark-card);
+    border-radius: 8px;
+    border: 1px solid var(--neon-purple);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.1);
+}
+
+.katex {
+    font-size: 1.1em;
+}
+
+/* Footer */
+.footer {
+    background: var(--dark-card);
+    border-top: 2px solid var(--neon-purple);
+    padding: 2rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.footer-tagline {
+    margin-top: 0.5rem;
+    color: var(--neon-pink);
+    text-shadow: 0 0 8px var(--neon-pink);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .nav-link {
+        display: block;
+        text-align: center;
+    }
+
+    .content {
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Animations */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 15px var(--neon-cyan), 0 0 30px var(--neon-purple);
+    }
+    to {
+        text-shadow: 0 0 25px var(--neon-cyan), 0 0 50px var(--neon-purple), 0 0 75px var(--neon-pink);
+    }
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    height: 2px;
+    background: var(--accent-gradient);
+    margin: 2rem 0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: var(--dark-card);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--neon-purple);
+}
+
+th {
+    background: linear-gradient(135deg, rgba(188, 19, 254, 0.2), rgba(255, 110, 184, 0.1));
+    color: var(--neon-cyan);
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background: rgba(0, 240, 255, 0.05);
+}

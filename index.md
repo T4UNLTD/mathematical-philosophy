@@ -25,7 +25,7 @@ Every post is filtered through this framework, revealing connections between dis
 ## What You'll Find Here
 
 ### Zero
-The infinite potential that precedes manifestation—not emptiness, but the ground of all becoming.
+The infinite potential that precedes manifestation—not emptiness, but ground of all becoming.
 
 ### Division
 The fundamental act that creates relationship, defining boundaries that make connection possible.
@@ -39,17 +39,17 @@ The collapse of temporal separation—all moments existing together in higher-di
 ## Recent Explorations
 
 ### The Ontology of Zero
-[**Read Now →**](/2026-02-05-ontology-of-zero.html)
+[**Read Now →**](/ontology-of-zero/)
 
 Zero is not "nothing"—it's indivisible unity, the foundational anchor from which all counting emerges. Discover why division by zero is impossible and how zero relates to the mystical paradox of "the full void."
 
 ### Division as Conceptual Cutting
-[**Read Now →**](/2026-02-06-division-conceptual-cutting.html)
+[**Read Now →**](/division-conceptual-cutting/)
 
 Division isn't cutting—it's our mind's way of conceptualizing relationships that already exist in simultaneity. Explore how fractions describe reality rather than transform it, and why the "canceling out" confusion reveals the difference between subtraction and dimensional transformation.
 
 ### time_0 Notation - Time Sub-Zero
-[**Read Now →**](/2026-02-07-time-zero-notation.html)
+[**Read Now →**](/time-zero-notation/)
 
 Time has three directions: past, present, and pre-history (time_0). Dive into the state before counting began, the leap from 4-10, and how this reframes our understanding of "before time" itself.
 

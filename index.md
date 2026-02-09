@@ -39,17 +39,15 @@ The collapse of temporal separation—all moments existing together in higher-di
 ## Recent Explorations
 
 ### The Ontology of Zero
-[**Read Now →**](/ontology-of-zero/)
+[**Read Now →**](/mathematical-philosophy/ontology-of-zero/)
 
 Zero is not "nothing"—it's indivisible unity, the foundational anchor from which all counting emerges. Discover why division by zero is impossible and how zero relates to the mystical paradox of "the full void."
 
 ### Division as Conceptual Cutting
-[**Read Now →**](/division-conceptual-cutting/)
-
-Division isn't cutting—it's our mind's way of conceptualizing relationships that already exist in simultaneity. Explore how fractions describe reality rather than transform it, and why the "canceling out" confusion reveals the difference between subtraction and dimensional transformation.
+[**Read Now →**](/mathematical-philosophy/division-conceptual-cutting/)
 
 ### time_0 Notation - Time Sub-Zero
-[**Read Now →**](/time-zero-notation/)
+[**Read Now →**](/mathematical-philosophy/time-zero-notation/)
 
 Time has three directions: past, present, and pre-history (time_0). Dive into the state before counting began, the leap from 4-10, and how this reframes our understanding of "before time" itself.
 
